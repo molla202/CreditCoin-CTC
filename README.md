@@ -81,7 +81,8 @@ docker exec -it creditcoin-validator creditcoin-cli new
 docker exec -it creditcoin-validator creditcoin-cli wizard -a 5000
 ```
   
-- 5000 değiştirebilirsiniz
+- 5000 değiştirebilirsiniz.
+- mnemonickleri isteyecektir
 #### Çıktı bu şekilde 
 ```bash
 💰 Stash account: cüzdan adresiniz görünecek
