@@ -18,6 +18,7 @@
 
 ## Öncelikle Bu Dökümanızı Okumanızı Tavsiye Ediyorum
 * https://creditcoin.org/blog/testnet_live/
+* Ayrıca era donguleri gunde bir gerçekleşiyor ve yeni 100 validator seçiliyor. yani bir sıra var ve active geçtiğinizde performansınız ölçülüyor
 ## Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
