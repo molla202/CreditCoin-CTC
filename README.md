@@ -74,7 +74,7 @@ docker exec -it creditcoin-validator creditcoin-cli new
 * https://community.creditcoin.org/
 * https://form.typeform.com/to/yGrtGCJO
 * daha sonra faucetin cüzdana yansımasını beklıyoruz
-* nominator işlemini twiterda ayrı flood olarak yazıp link ekleyeceğim
+* 
 ## Validatore stake yapıyoruz (eşleşmeden sonra) 
 ```bash
 docker exec -it creditcoin-validator creditcoin-cli wizard -a 5000
@@ -107,4 +107,34 @@ docker exec -it creditcoin-validator creditcoin-cli wizard -a 5000
 
 * sol en ustteki menude account yazıyor. buraya gelıp isterseniz cüzdanın yanında 3 noktaya tıklayıp set on identy kısmında twiter github site linki ad değiştirme işlemlerini yapabilirsiniz
 ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/3a531b2a-5471-4a0e-87a9-d4fa3eccc7bc)
+
+
+## Nominator işlemi ( node kurmayanlar için)
+* aşağıdaki linkten yoksa polkadot cüzdanı kurun bir hesap ekleyin.
+* https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd
+* faucet almak için öncelikle topluluk sitesine uye olmamız discordlarına girmemiz ve formu doldurup gelmesini beklememiz gerekiyor
+* https://community.creditcoin.org/
+* https://form.typeform.com/to/yGrtGCJO
+* daha sonra faucetin cüzdana yansımasını beklıyoruz
+* geldikten sonra https://staking.creditcoin.org/#/overview   adresine giriyoruz
+* sağ üstten cüzdanı bağlıyoruz. seçin sona tekrar tıklayıp seçin
+* validator tıklıyoruz soldan. arama yerine molla yazıyoruz çıkmassa altındaki active validator tıklayın gelir sonra validator gorunucek ve favoriye almak için kalp tıklayınız( core node da arayın olabilir)
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/51e7398e-368d-469e-9f56-f417afaf1e6e)
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/3b6c5453-ac90-499c-8ce6-92f83dcd5ba2)
+* tekrar sol menuden owerview diyelim ve gelen sayfada start tıklayalım
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/29e7824b-abb4-46b3-bdad-0b362f7ae796)
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/e345076a-1be8-4616-88ef-60af0d6cdf42)
+* çıkan ekrandakine tıklayın
+* sağdan start nominating diyelim
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/67cc7303-568a-42cc-bf78-c35fd7c2aa12)
+* böyle bir ekran gelecek continue diyelim
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/b6546408-d86c-4d27-a075-13e78bcc8edc)
+* sağdan from favorite diyelim. ve select diyerek mollaya tik atalım. (core node da olabilir daha once eklediyseniz birden fazla seçebilirsiniz)
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/bf781350-6610-4c28-9362-c80edfeb41a7)
+* continue deyip devam edıyoruz ve bizi stake miktarı yapacağımız ekrana getiriyor.
+* ![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/47783786-0bbf-4db8-8d5a-0f8728948103)
+* miktarı girin ve devam edin. şuan faucet nominator hesabına gelmedi devamını resimli anlatamıyorum pek bişide kalmadı zaten :D
+
+
+
 
