@@ -138,5 +138,7 @@ docker exec -it creditcoin-validator creditcoin-cli wizard -a 5000
 * miktarı girin ve devam edin. şuan faucet nominator hesabına gelmedi devamını resimli anlatamıyorum pek bişide kalmadı zaten :D
 
 
+* 2gün aktive girebildim. çalıştığını onaylamıs olduk bir sorunumuz yok telemetrydede gorunuyorum.hayırlı olsun
+![image](https://github.com/molla202/CreditCoin-CTC/assets/91562185/3428f178-ec61-4a49-a242-7180359dc80c)
 
 
