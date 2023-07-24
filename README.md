@@ -25,7 +25,12 @@
 | CPU |	4 |
 | RAM	| 8 GB |
 | Storage	| 250 GB SSD |
-
+## Test bitti kapatmak için
+docker ps
+çıkan docker id en basta yazar kopyalayın
+docker stop docker-id
+docker rm docker-id
+son olarak stake sayfasından accounta gelin ve cüzdanınızın sonunda stop yazıp validate işlemini durdurun. yapmasanızda farketmez snapı almışlar
 ## Update edelim
 ```bash
 sudo apt update; sudo apt upgrade 
