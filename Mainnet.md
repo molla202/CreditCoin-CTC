@@ -39,7 +39,7 @@ sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport
 
 ##  Dosyaları çekiyoruz 
 ```bash
-docker pull docker pull gluwa/creditcoin:2.230.1-mainnet 
+docker pull gluwa/creditcoin:2.230.1-mainnet 
 ```
 
 ##  Validatorü oluşturuyoruz (adınızı yazınız kısmını değiştiriniz)
