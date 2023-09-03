@@ -44,7 +44,7 @@ docker pull gluwa/creditcoin:2.230.1-mainnet
 
 ##  Validatorü oluşturuyoruz (adınızı yazınız kısmını değiştiriniz)
 ```bash
-docker run \
+docker run -d \
  --name creditcoin-validator \
  -p 30333:30333 \
  -v creditcoin/creditcoin-node/data  \
