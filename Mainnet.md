@@ -47,11 +47,11 @@ docker pull gluwa/creditcoin:2.230.1-mainnet
 docker run \
  --name creditcoin-validator \
  -p 30333:30333 \
- -v <your local data path>:/creditcoin-node/data  \
+ -v creditcoin/creditcoin-node/data  \
  gluwa/creditcoin:2.230.1-mainnet `# Enter latest mainnet image` \
  --name "CoreNode" `# name the validator` \
  --telemetry-url "wss://telemetry.creditcoin.network/submit/ 0" `# (optional) opt in to telemetry` \
- --public-addr "/dns4/<yourhostname or ip>/tcp/30333" `# REPLACE <yourhostname or ip> with the public IP address or host name at which your node can be reached` \
+ --public-addr "/dns4/IPKAMU/tcp/30333" `# REPLACE <yourhostname or ip> with the public IP address or host name at which your node can be reached` \
  --chain main `# we want to connect to the mainnet` \
  --bootnodes "/dns4/bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWAEgDL126EUFxFfdQKiUhmx3BJPdszQHu9PsYsLCuavhb" "/dns4/bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWSQye3uN3bZQRRC4oZbpiAZXkP2o5UZh6S8pqyh24bF3k" "/dns4/bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWFrsEZ2aSfiigAxs6ir2kU6en4BewotyCXPhrJ7T1AzjN" \
  --validator `# we want to run a validator node` \
